@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    height: 70px;
+    width: 1000px;
+    align-items: center;
+}
+
+.container 
+
+.menu {
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.grid1 {
+    cursor: pointer;
+}
+
+.grid2 {
+    cursor: pointer;
+}
+
+.grid3 {
+    cursor: pointer;
+}
+
+.grid1:hover {
+    transform: scale(1.1);
+}
+
+.grid2:hover {
+    transform: scale(1.1);
+}
+
+.grid3:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button button {
+    height: 35px;
+    width: 65px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+#new:hover {
+    transform: scale(1.1);
+}
+
+#old:hover {
+    transform: scale(1.1);
+}
+
+#cheap:hover {
+    transform: scale(1.1);
+}
+
+#expensive:hover {
+    transform: scale(1.1);
+}
+
+#show {
+    font-size: 14px;
+}
+
+#box {
+    width: 50px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.products {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-image img {
+    border: 1px solid #bbb;
+    border-bottom: transparent;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.product-container {
+    border: 1px solid #bbb;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 70px;
+    margin-top: -10px;
+
+}
+.text {
+    margin-left: -10px;
+    margin-top: 7px;
+}
+
+.buy-button button {
+    width: 100px;
+    height: 45px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.buy-button {
+    margin-top: 14px;
+}
+
+
+.buy-button:hover button {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
